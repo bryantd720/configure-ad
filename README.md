@@ -70,3 +70,10 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 
 <h2>Example Screenshots</h2>
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
