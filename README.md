@@ -90,10 +90,10 @@ Active Directory running within the Domain Controller (Server) virtual machine.
   
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r21alrQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Usernames being generated to populate Active Directory. User can then log into the Client-1 VM (Windows) using a registered name and password. 
+A script running in Windows PowerShell ISE. Usernames being generated to populate Active Directory installed on DC-1 (Server). Domain Users can then log into the Client-1 (Windows) virtual machine using a preregistered name and password. 
 </p>
 <br />    
   
