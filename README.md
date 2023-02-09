@@ -40,9 +40,9 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 **Part 4 (Create an Admin and Normal User Account in AD)**
 - In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called "_EMPLOYEES"
 - Create a new OU named "_ADMINS"
-- Create a new employee named "Jane Doe" (same password) with the username of "jane_admin"
+- Create a new employee named "whoever" (same password) with the username of "whoever_admin"
 - Add jane_admin to the "Domain Admins" Security Group
-- Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\jane_admin"
+- Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\whoever_admin"
 - Use jane_admin as your admin account from now on
 
 
@@ -61,7 +61,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - You can now log into Client-1 as a normal, non-administrative user
 
 **Part 7 (Create a bunch of additional users and attempt to log into Client-1 with one of the users)**
-- Login to DC-1 as jane_admin
+- Login to DC-1 as whoever_admin
 - Open PowerShell_ise as an administrator
 - Create a new File and paste the contents of this useful script into it (https://github.com/bryantd720/configure-ad/blob/main/Generate-Names-Create-Users.ps1)
 - Run the script and observe the accounts being created
