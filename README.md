@@ -72,8 +72,29 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>Example Screenshots</h2>
 
 <p>
+<img src="https://i.imgur.com/Eu8o4Z7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After creating Domain Server via Azure, the Network Interface Card (NIC) Private Ip Address is set to static so it will remain the same. 
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/WhReINo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Active Directory running within the Domain Controller (Server) virtual machine. 
+</p>
+<br />  
+  
+
+<p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Usernames being generated to populate Active Directory. User can then log into the Client-1 VM (Windows) using a registered name and password. 
 </p>
-<br />
+<br />    
+  
+  
