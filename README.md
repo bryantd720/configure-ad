@@ -43,7 +43,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Create a new employee named "whoever" (same password) with the username of "whoever_admin"
 - Add jane_admin to the "Domain Admins" Security Group
 - Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\whoever_admin"
-- Use jane_admin as your admin account from now on
+- Use whoever_admin as your admin account from now on
 
 
 **Part 5 (Join Client-1 to your domain (mydomain.com))**
