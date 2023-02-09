@@ -55,7 +55,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 
 **Part 6 (Setup Remote Desktop for non-administrative users on Client-1)**
-- Log into Client-1 as mydomain.com\jane_admin and open system properties
+- Log into Client-1 as mydomain.com\whoever_admin and open system properties
 - Click "Remote Desktop"
 - Allow "Domain Users" access to remote desktop
 - You can now log into Client-1 as a normal, non-administrative user
